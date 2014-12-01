@@ -1,5 +1,6 @@
 package com.mrmatson.jaffas;
 
+import com.mrmatson.jaffas.configuration.ConfigurationHandler;
 import com.mrmatson.jaffas.proxy.IProxy;
 import com.mrmatson.jaffas.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -15,15 +16,17 @@ public class JaffaCakesMod
     @Mod.Instance("Jaffas")
     public static JaffaCakesMod instance;
 
-    @SidedProxy(clientSide = "com.mrmatson.jaffas.proxy.ClientProxy", serverSide = "com.mrmatson.jaffas.proxy.ServerProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
+
+
 
 
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
@@ -38,3 +41,5 @@ public class JaffaCakesMod
 
     }
 }
+
+//ep 7....

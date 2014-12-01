@@ -1,0 +1,18 @@
+[
+{
+"modid": "Jaffas",
+"name": "Jaffa Cakes Mod",
+"description": "Adds Jaffa Cakes (and some other cool stuff) to Minecraft!",
+"version": "1.0",
+"credits": "I made it. Is that cool?",
+"logoFile": "",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authors": [ "MrMatson" ],
+"parent":"",
+"screenshots": [],
+"dependencies":
+"requiredMods": [ "Forge" ],
+}
+]

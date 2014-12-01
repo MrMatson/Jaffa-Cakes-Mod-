@@ -1,0 +1,20 @@
+[
+{
+"modid": "IceCream",
+"name": "Ice Cream Mod",
+"description": "Ice Cream and other tasty frozen desserts!",
+"version": "1.0",
+"credits": "Created by Deli73, thanks to Pahimar for helping me get started with modding",
+"logoFile": "",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authors": [ "Deli73" ],
+"parent":"",
+"requiredMods": [ "Forge", ],
+"dependencies": [ "mod_MinecraftForge" ],
+"dependants": [],
+"screenshots": [],
+"useDependencyInformation": false
+}
+]﻿
